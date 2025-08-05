@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Envíame un Mensaje</title>
+</head>
+<body>
+    <h1>Envíame un Mensaje</h1>
+    
+    <form action="#" method="post">
+        <fieldset>
+            <legend>Información Personal</legend>
+            
+            <label for="nombre">Nombre completo:</label>
+            <input type="text" id="nombre" name="nombre" required><br><br>
+            
+            <label for="email">Correo electrónico:</label>
+            <input type="email" id="email" name="email" required><br><br>
+            
+            <label for="telefono">Teléfono (opcional):</label>
+            <input type="tel" id="telefono" name="telefono"><br><br>
+            
+            <label for="asunto">Asunto:</label>
+            <select id="asunto" name="asunto" required>
+                <option value="">Seleccione un asunto</option>
+                <option value="consulta">Consulta general</option>
+                <option value="trabajo">Oferta de trabajo</option>
+                <option value="colaboracion">Propuesta de colaboración</option>
+                <option value="otro">Otro</option>
+            </select>
+        </fieldset>
+        
+        <fieldset>
+            <legend>Tu Mensaje</legend>
+            
+            <label for="mensaje">Mensaje:</label><br>
+            <textarea id="mensaje" name="mensaje" rows="5" cols="50" required></textarea><br><br>
+            
+            <label for="adjunto">Adjuntar archivo:</label>
+            <input type="file" id="adjunto" name="adjunto"><br><br>
+            
+            <label>
+                <input type="checkbox" id="copia" name="copia">
+                Enviarme una copia del mensaje
+            </label><br><br>
+            
+            <label>
+                <input type="checkbox" id="privacidad" name="privacidad" required>
+                Acepto la <a href="#politica-privacidad">política de privacidad</a>
+            </label>
+        </fieldset>
+        
+        <button type="submit">Enviar Mensaje</button>
+        <button type="reset">Limpiar Formulario</button>
+    </form>
+    
+    <section>
+        <h2>Otras formas de contacto</h2>
+        <ul>
+            <li><strong>Email:</strong> <a href="mailto:tucorreo@ejemplo.com">jorgeluisdelgadoramos01@gmail.com</a></li>
+            <li><strong>Teléfono:</strong> +591 63760672</li>
+        </ul>
+    </section>
+    
+    <section id="politica-privacidad">
+        <h2>Política de Privacidad</h2>
+        <p>Los datos proporcionados serán utilizados exclusivamente para responder a tu mensaje y no serán compartidos con terceros sin tu consentimiento expreso.</p>
+    </section>
+    
+    <footer>
+        <p>
+            <a href="yo.html">Sobre mí</a> | 
+            <a href="mifamilia.html">Mi familia</a> | 
+            <a href="miciudad.html">Mi ciudad</a> |
+            <a href="misamigos.html">Mis amigos</a> |
+            <a href="mishobbies.html">Mis hobbies</a>
+        </p>
+    </footer>
+</body>
+</html>

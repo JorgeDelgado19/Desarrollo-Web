@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Mi Familia</title>
+</head>
+<body>
+    <h1>Mi Familia</h1>
+
+    <section>
+        <h2>Árbol Genealógico</h2>
+        <ul>
+            <li><strong>Padres</strong>
+                <ul>
+                    <li>Edwin Arancibia (Padre) - 39 años - Ingeniero</li>
+                    <li>Sara Ramos (Madre) - 40 años - Médico</li>
+                </ul>
+            </li>
+            <li><strong>Hermanos</strong>
+                <ul>
+                    <li>Sharit Arancibia - 12 años - Estudiante</li>
+                    <li>Santiago Arancibia - 7 años - Estudiante</li>
+                </ul>
+            </li>
+            <li><strong>Abuelos</strong>
+                <ul>
+                    <li>Luis Arancibia (Abuelo paterno) - 65 años - Fallecido</li>
+                    <li>Irene Alegre (Abuela paterna) - 70 años - Jubilada</li>
+                    <li>German Mamani (Abuelo materno) - 67 años - Fallecido</li>
+                    <li>Angelica Condori (Abuela materna) - 68 años - Jubilada</li>
+                </ul>
+            </li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Cumpleaños Familiares</h2>
+        <table border="1">
+            <tr>
+                <th>Nombre</th>
+                <th>Parentesco</th>
+                <th>Fecha</th>
+                <th>Edad</th>
+            </tr>
+            <tr>
+                <td>Edwin Arancibia</td>
+                <td>Padre</td>
+                <td>15 de marzo</td>
+                <td>39</td>
+            </tr>
+            <tr>
+                <td>Sara Ramos</td>
+                <td>Madre</td>
+                <td>20 de julio</td>
+                <td>40</td>
+            </tr>
+            <tr>
+                <td>Sharit Arancibia</td>
+                <td>Hermana</td>
+                <td>10 de octubre</td>
+                <td>12</td>
+            </tr>
+        </table>
+    </section>
+
+    <section>
+        <h2>Tradiciones Familiares</h2>
+        <ul>
+            <li>Reunión familiar cada domingo</li>
+            <li>Vacaciones anuales en Potosi</li>
+            <li>Cena especial en Navidad</li>
+            <li>Celebración de todos los cumpleaños</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Agregar Familiar</h2>
+        <form>
+            <label for="nombre">Nombre completo:</label>
+            <input type="text" id="nombre" required><br><br>
+            
+            <label for="parentesco">Parentesco:</label>
+            <select id="parentesco">
+                <option value="padre">Padre</option>
+                <option value="madre">Madre</option>
+                <option value="hermano">Hermano/a</option>
+                <option value="abuelo">Abuelo/a</option>
+                <option value="tio">Tío/a</option>
+                <option value="primo">Primo/a</option>
+            </select><br><br>
+            
+            <label for="fecha-nacimiento">Fecha de nacimiento:</label>
+            <input type="date" id="fecha-nacimiento"><br><br>
+            
+            <label for="ocupacion">Ocupación:</label>
+            <input type="text" id="ocupacion"><br><br>
+            
+            <button type="submit">Agregar familiar</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>
+            <a href="yo.html">Sobre mí</a> | 
+            <a href="mishobbies.html">Mis hobbies</a> | 
+            <a href="misamigos.html">Mis amigos</a>
+        </p>
+    </footer>
+</body>
+</html>
